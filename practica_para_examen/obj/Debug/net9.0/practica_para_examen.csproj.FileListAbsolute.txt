@@ -1,0 +1,15 @@
+C:\Users\Darlin K\Practica2\practica_para_examen\bin\Debug\net9.0\practica_para_examen.exe
+C:\Users\Darlin K\Practica2\practica_para_examen\bin\Debug\net9.0\practica_para_examen.deps.json
+C:\Users\Darlin K\Practica2\practica_para_examen\bin\Debug\net9.0\practica_para_examen.runtimeconfig.json
+C:\Users\Darlin K\Practica2\practica_para_examen\bin\Debug\net9.0\practica_para_examen.dll
+C:\Users\Darlin K\Practica2\practica_para_examen\bin\Debug\net9.0\practica_para_examen.pdb
+C:\Users\Darlin K\Practica2\practica_para_examen\obj\Debug\net9.0\practica_para_examen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Darlin K\Practica2\practica_para_examen\obj\Debug\net9.0\practica_para_examen.AssemblyInfoInputs.cache
+C:\Users\Darlin K\Practica2\practica_para_examen\obj\Debug\net9.0\practica_para_examen.AssemblyInfo.cs
+C:\Users\Darlin K\Practica2\practica_para_examen\obj\Debug\net9.0\practica_para_examen.csproj.CoreCompileInputs.cache
+C:\Users\Darlin K\Practica2\practica_para_examen\obj\Debug\net9.0\practica_para_examen.sourcelink.json
+C:\Users\Darlin K\Practica2\practica_para_examen\obj\Debug\net9.0\practica_para_examen.dll
+C:\Users\Darlin K\Practica2\practica_para_examen\obj\Debug\net9.0\refint\practica_para_examen.dll
+C:\Users\Darlin K\Practica2\practica_para_examen\obj\Debug\net9.0\practica_para_examen.pdb
+C:\Users\Darlin K\Practica2\practica_para_examen\obj\Debug\net9.0\practica_para_examen.genruntimeconfig.cache
+C:\Users\Darlin K\Practica2\practica_para_examen\obj\Debug\net9.0\ref\practica_para_examen.dll
