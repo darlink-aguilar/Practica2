@@ -1,7 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
-// Creamos el objeto de cliente y su instancia
+﻿// Creamos el objeto de cliente y su instancia
 Clientes cliente1 = new Clientes();
 cliente1.Id = 1;
 cliente1.Nombre = "Darlibk";
@@ -43,6 +40,11 @@ libro1.Autor = new Autores { Id = 3, Nombre = "Brayan" };
 Console.WriteLine(libro1.Id);
 Console.WriteLine(libro1.Autor); // Arreglar
 
+// Se llaman las funciones
+cliente1.Mostrar_información();
+empelado1.Mostrar_información();
+
+
 public class Libros
 {
     public int Id;
@@ -57,16 +59,31 @@ public class Usuarios
     public int Edad;
     public decimal Estatura;
 
+    public virtual void Mostrar_información() //Polimorfismo
+    {
+        Console.WriteLine($"Id {Id}, Nombre {Nombre}, edad {Edad},estatura {Estatura}");
+    }
+
 }
 
 public class Clientes : Usuarios
 {
     public bool Actividad;
+
+    public override void Mostrar_información() //Polimorfismo
+    {
+        Console.WriteLine($"El estado del cliente {Nombre} con c.c {Id} es: {Actividad} ");
+    }
 }
 
 public class Empleados : Usuarios
 {
     public string? Cargo;
+
+    public override void Mostrar_información()
+    {
+        Console.WriteLine($"Señor@ {Nombre}, su cargo es {Cargo} ");
+    }
 }
 
 public class Autores : Usuarios

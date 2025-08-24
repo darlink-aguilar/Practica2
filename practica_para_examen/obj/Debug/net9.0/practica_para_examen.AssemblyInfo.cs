@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("practica_para_examen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43e30660b5b483290eaa52f46a7211f7caba9fed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e603306c0f2d8a2a8e0bd3b24aa4ffb2c534bd51")]
 [assembly: System.Reflection.AssemblyProductAttribute("practica_para_examen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("practica_para_examen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
