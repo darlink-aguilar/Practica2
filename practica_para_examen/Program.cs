@@ -1,7 +1,7 @@
 ﻿// Creamos el objeto de cliente y su instancia
 Clientes cliente1 = new Clientes();
 cliente1.Id = 1;
-cliente1.Nombre = "Darlibk";
+cliente1.Nombre = "Darlink";
 cliente1.Edad = 19;
 cliente1.Estatura = 1.52m;
 cliente1.Actividad = true;
@@ -44,6 +44,17 @@ Console.WriteLine(libro1.Autor); // Arreglar
 cliente1.Mostrar_información();
 empelado1.Mostrar_información();
 
+cliente1.Libros = new List<Libros>();
+cliente1.Libros.Add(new Libros() { Id = 102, Titulo = "Cien años de soledad" });
+cliente1.Libros.Add(new Libros() { Id = 102, Titulo = "Poca vida" });
+cliente1.Libros.Add(new Libros() { Id = 102, Titulo = "Ensayo sobre la ceguera" });
+
+foreach (var elemento in cliente1.Libros)
+{
+    Console.WriteLine(elemento.Titulo);
+}
+
+
 
 public class Libros
 {
@@ -69,6 +80,7 @@ public class Usuarios
 public class Clientes : Usuarios
 {
     public bool Actividad;
+    public List<Libros>? Libros; // Se crea la lista
 
     public override void Mostrar_información() //Polimorfismo
     {
